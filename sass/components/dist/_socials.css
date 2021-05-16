@@ -1,0 +1,24 @@
+.socials {
+  display: inline-flex;
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-right: 30px;
+  padding: 0;
+}
+
+.socials__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.socials-container {
+  display: block;
+  margin-left: 70px;
+  width: 212px;
+}
+
+.footer-socials__list {
+  display: block;
+  padding: 0;
+  display: inline-flex;
+  margin-top: 20px;
+}

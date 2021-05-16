@@ -1,0 +1,20 @@
+.content__list {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.content__item {
+  width: 270px;
+  /* height: 251px; */
+}
+
+.content__container {
+  width: 270px;
+  height: 120px;
+  background-color: var(--alt-bg-cl);
+  margin-bottom: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

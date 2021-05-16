@@ -1,0 +1,24 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--dark-bg-cl);
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-contacts-container {
+  display: block;
+}
+
+.address-container {
+  display: block;
+  padding-top: 20px;
+  width: 231px;
+}
+
+.footer__item {
+  padding-top: 9px;
+}

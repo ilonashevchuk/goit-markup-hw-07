@@ -1,0 +1,36 @@
+.header-border {
+  border-bottom: 1px solid #ececec;
+}
+
+.nav-container {
+  display: inline-flex;
+  padding: 25px 0 25px 0;
+}
+
+.navigation {
+  display: inline-flex;
+  align-items: center;
+  margin-right: auto;
+  /* justify-content: space-around; */
+}
+
+.nav-container__list {
+  display: inline-flex;
+  padding-left: 0;
+}
+
+.nav-container__item {
+  margin-right: 50px;
+}
+
+.nav-container__item:last-child {
+  margin-right: 0;
+}
+
+.contacts-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.contacts-list {
+  margin-left: 305px;
+}
