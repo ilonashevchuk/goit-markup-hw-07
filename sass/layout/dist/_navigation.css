@@ -22,7 +22,6 @@
 .nav-container__item {
   margin-right: 50px;
 }
-
 .nav-container__item:last-child {
   margin-right: 0;
 }

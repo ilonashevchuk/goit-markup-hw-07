@@ -10,10 +10,10 @@
   background-color: var(--dark-bg-cl);
   color: var(--bg-cl-cards);
   outline: transparent;
-}
 
-.form__input:focus-within {
-  border-color: var(--accent-text-color);
+  &:focus-within {
+    border-color: var(--accent-text-color);
+  }
 }
 
 .modal__input {
@@ -25,11 +25,11 @@
   padding-left: 42px;
   cursor: pointer;
   outline: transparent;
-}
 
-.modal__input:focus-within {
-  border: 1px solid #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus-within {
+    border: 1px solid #2196f3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .label-comments {
@@ -51,15 +51,15 @@
   border-radius: 4px;
   resize: none;
   outline: transparent;
-}
 
-.label-comments__textarea:placeholder-shown {
-  color: rgb(117, 117, 117);
-  opacity: 0.5;
-}
+  &:placeholder-shown {
+    color: rgb(117, 117, 117);
+    opacity: 0.5;
+  }
 
-.label-comments__textarea:focus-within {
-  border: 1px solid #2196f3;
+  &:focus-within {
+    border: 1px solid #2196f3;
+  }
 }
 
 .input-checkbox__label {
@@ -73,29 +73,29 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-}
 
-.input-checkbox__label::before {
-  content: '';
-  display: inline-flex;
-  margin-right: 7px;
-  width: 16px;
-  height: 16px;
-  border: 1px solid var(--title-text-color);
-  border-radius: 2px;
-}
+  &::before {
+    content: '';
+    display: inline-flex;
+    margin-right: 7px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--title-text-color);
+    border-radius: 2px;
+  }
 
-.input-checkbox:checked + .input-checkbox__label::before {
-  background-image: url(../images/check.icon.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-color: var(--accent-text-color);
-  border-color: var(--accent-text-color);
-}
+  .input-checkbox:checked + &::before {
+    background-image: url(../images/check.icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: var(--accent-text-color);
+    border-color: var(--accent-text-color);
+  }
 
-.input-checkbox__label:focus-within::before {
-  border-color: var(--accent-text-color);
+  &:focus-within::before {
+    border-color: var(--accent-text-color);
+  }
 }
 
 .input-checkbox__link {

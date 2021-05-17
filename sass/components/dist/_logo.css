@@ -33,9 +33,7 @@
   text-decoration: none;
   color: var(--bg-cl-cards);
 }
-
-.footer__logo:hover,
-.footer__logo:focus {
+.footer__logo:hover, .footer__logo:focus {
   color: var(--accent-text-color);
 }
 

@@ -5,14 +5,14 @@
   margin-bottom: 50px;
 }
 
-.section-portfolio__item:hover,
-.section-portfolio__item:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
 .section-portfolio__item {
   cursor: pointer;
   margin-right: 8px;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 }
 
 .section-portfolio__card-list {
@@ -45,10 +45,10 @@
   top: 0;
   left: 0;
   z-index: 2;
-}
 
-.section-portfolio__overlay:hover {
-  opacity: 1;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .section-portfolio__overlay-thumb {

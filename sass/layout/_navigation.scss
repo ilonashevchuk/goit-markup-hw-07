@@ -21,10 +21,10 @@
 
 .nav-container__item {
   margin-right: 50px;
-}
 
-.nav-container__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .contacts-list__item:not(:last-child) {

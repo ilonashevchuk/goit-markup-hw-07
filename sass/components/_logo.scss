@@ -32,11 +32,11 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--bg-cl-cards);
-}
 
-.footer__logo:hover,
-.footer__logo:focus {
+&:hover,
+&:focus {
   color: var(--accent-text-color);
+}
 }
 
 .footer__logo--accent {
