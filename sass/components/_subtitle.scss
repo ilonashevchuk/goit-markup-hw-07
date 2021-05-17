@@ -5,10 +5,10 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-}
 
-.content__subtitle:last-child {
-  padding-right: 0;
+  &:last-child {
+    padding-right: 0;
+  }
 }
 
 .work__subtitle {
