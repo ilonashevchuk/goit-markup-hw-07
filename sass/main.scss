@@ -1,6 +1,8 @@
 @import './utils/variables';
+
 @import './base/common.scss';
 @import './base/container';
+
 @import './components/_navigation-link';
 @import './components/button';
 @import './components/socials-icon-link';
@@ -10,11 +12,13 @@
 @import './components/_contacts-form';
 @import './components/_modal';
 @import './components/_socials';
+
+@import './themes/team';
+
 @import './layout/_navigation';
 @import './layout/hero';
 @import './layout/content';
 @import './layout/work';
-@import './themes/team';
 @import './layout/team';
 @import './layout/_clients';
 @import './layout/footer';
